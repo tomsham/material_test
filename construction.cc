@@ -199,7 +199,7 @@ void MyDetectorConstruction::ConstructMaterialTest() {
 		G4Translate3D transZ(G4ThreeVector(0.*m, 0.*m, pos_z));
 		physPlaneDetector = new G4PVPlacement(transZ, logicPlaneDetector, "PlaneDetector", logicTestBlock, false, i, true);
 	}
-	*/
 	// PlaneDetector
+	*/
 }
 // End TestBlock and Detector
